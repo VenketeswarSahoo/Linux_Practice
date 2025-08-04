@@ -10,25 +10,21 @@ A handy reference for commonly used Linux commands.
 
 Open **PowerShell as Administrator** and run:
 
-```powershell
-wsl --list --verbose
+`wsl --list --verbose`
 
 If WSL is not installed, follow the next steps.
 
 ### 2. Install WSL (First Time Only)
 
-```powershell
-wsl --install
+`wsl --install`
 
 ### 3. Launch Ubuntu
 
-```powershell
-wsl -d Ubuntu
+`wsl -d Ubuntu`
 
 or
 
-```powershell
-wsl
+`wsl`
 
 ---
 
