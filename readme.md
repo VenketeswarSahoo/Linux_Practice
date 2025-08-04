@@ -106,7 +106,7 @@ A handy reference for commonly used Linux commands.
 
 ---
 
-# 📄 `cat` vs `nano` vs `vim` – Linux Command Comparison
+# 📄 `cat` vs `less` vs `nano` vs `vim` – Linux Command Comparison
 
 ---
 
@@ -114,8 +114,9 @@ A handy reference for commonly used Linux commands.
 
 | Command | Purpose                           | Editing Capability | Use Case                       | Difficulty | Exit Shortcut             |
 |---------|-----------------------------------|--------------------|-------------------------------|------------|---------------------------|
-| `cat`   | Display file content              | ❌ No               | Quickly view file content     | ⭐ Very Easy | `Ctrl+C` or close terminal |
-| `nano`  | Simple terminal text editor       | ✅ Yes              | Quick file edits              | ⭐⭐ Easy     | `Ctrl+X`, then `Y` to save |
+| `cat`   | Display file content              | ❌ No               | Quickly view file content     | ⭐ Very Easy  | `Ctrl+C` or close terminal |
+| `less`  | Display large file content        | ❌ No               | Quickly view large file       | ⭐⭐ Very Easy | `q` or close terminal |
+| `nano`  | Simple terminal text editor       | ✅ Yes              | Quick file edits              | ⭐⭐⭐ Easy     | `Ctrl+X`, then `Y` to save |
 | `vim`   | Advanced terminal text editor     | ✅ Yes              | Power editing, scripting      | ⭐⭐⭐⭐ Hard   | `Esc` → `:q!` or `:wq`     |
 
 ---
