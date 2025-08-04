@@ -104,3 +104,68 @@ A handy reference for commonly used Linux commands.
 | `su`                            | Switch user                        | `su - root`                           |
 | `sudo`                          | Run command as superuser           | `sudo apt update`                     |
 
+---
+
+# 📄 `cat` vs `nano` vs `vim` – Linux Command Comparison
+
+---
+
+## 📋 Summary Comparison
+
+| Command | Purpose                           | Editing Capability | Use Case                       | Difficulty | Exit Shortcut             |
+|---------|-----------------------------------|--------------------|-------------------------------|------------|---------------------------|
+| `cat`   | Display file content              | ❌ No               | Quickly view file content     | ⭐ Very Easy | `Ctrl+C` or close terminal |
+| `nano`  | Simple terminal text editor       | ✅ Yes              | Quick file edits              | ⭐⭐ Easy     | `Ctrl+X`, then `Y` to save |
+| `vim`   | Advanced terminal text editor     | ✅ Yes              | Power editing, scripting      | ⭐⭐⭐⭐ Hard   | `Esc` → `:q!` or `:wq`     |
+
+---
+
+## 🔍 Detailed Descriptions
+
+### 🐱 `cat` – Concatenate and Display
+
+- **Usage**: `cat file.txt`
+- **Purpose**: Print the contents of a file to the terminal.
+- **Limitations**: You can't edit with `cat`.
+- **Best for**: Viewing small files, combining file contents.
+
+---
+
+### ✏️ `nano` – Beginner-Friendly Editor
+
+- **Usage**: `nano file.txt`
+- **Purpose**: A simple and easy-to-use terminal text editor.
+- **Features**:
+  - Easy navigation and editing
+  - Useful keyboard shortcuts shown at the bottom
+- **Exit**: `Ctrl + X`
+- **Save**: `Ctrl + O`, then press `Enter`
+- **Best for**: Quick edits, config changes, and beginners.
+
+---
+
+### ⚙️ `vim` – Advanced Text Editor
+
+- **Usage**: `vim file.txt`
+- **Purpose**: A powerful and fast editor used by developers and power users.
+- **Modes**:
+  - `i` = Insert mode (to type text)
+  - `Esc` = Exit to normal mode
+- **Exit**:
+  - `:w` = Save
+  - `:q` = Quit
+  - `:wq` = Save and quit
+  - `:q!` = Quit without saving
+- **Best for**: Advanced editing, scripting, programming.
+
+---
+
+## ✅ When to Use Which?
+
+| Task                          | Recommended Tool |
+|-------------------------------|------------------|
+| Just view a file              | `cat`            |
+| Make a quick text edit        | `nano`           |
+| Work on code or long scripts  | `vim`            |
+
+---
