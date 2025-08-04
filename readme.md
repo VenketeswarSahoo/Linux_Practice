@@ -131,6 +131,18 @@ A handy reference for commonly used Linux commands.
 
 ---
 
+### 🐱 `less` – Pager for long files
+
+- **Usage**: `less /var/log/syslog`
+- **Purpose**: View large files page by page, scroll up/down.
+- **Limitations**: You can't edit with `less`.
+- **Best for**: Long logs, config files.
+- **Best for**:
+   - Navigation: ↑, ↓, PgUp, PgDn, / to search
+   - Press `q` to quit
+
+---
+
 ### ✏️ `nano` – Beginner-Friendly Editor
 
 - **Usage**: `nano file.txt`
@@ -165,6 +177,7 @@ A handy reference for commonly used Linux commands.
 | Task                          | Recommended Tool |
 |-------------------------------|------------------|
 | Just view a file              | `cat`            |
+| Pager for long files          | `less`           |
 | Make a quick text edit        | `nano`           |
 | Work on code or long scripts  | `vim`            |
 
