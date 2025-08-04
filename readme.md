@@ -4,6 +4,34 @@ A handy reference for commonly used Linux commands.
 
 ---
 
+## ✅ Steps to Install WSL and Ubuntu
+
+### 1. Check if WSL is Already Installed
+
+Open **PowerShell as Administrator** and run:
+
+```powershell
+wsl --list --verbose
+
+If WSL is not installed, follow the next steps.
+
+### 2. Install WSL (First Time Only)
+
+```powershell
+wsl --install
+
+### 3. Launch Ubuntu
+
+```powershell
+wsl -d Ubuntu
+
+or
+
+```powershell
+wsl
+
+---
+
 ## 📁 1. File & Directory Management
 
 | Command                         | Description                         | Example                               |
