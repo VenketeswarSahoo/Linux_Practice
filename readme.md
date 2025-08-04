@@ -104,19 +104,3 @@ A handy reference for commonly used Linux commands.
 | `su`                            | Switch user                        | `su - root`                           |
 | `sudo`                          | Run command as superuser           | `sudo apt update`                     |
 
----
-
-## 🧪 Practice Example
-
-```bash
-# Practice block
-mkdir linux_practice
-cd linux_practice
-touch file1.txt file2.txt
-echo "Hello Linux" > file1.txt
-cat file1.txt
-cp file1.txt copied.txt
-mv copied.txt renamed.txt
-rm renamed.txt
-cd ..
-rm -r linux_practice
